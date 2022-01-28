@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-flow: column-reverse;
+  gap: 10px;
+}
+
+.container {
+  min-width: 17rem;
+  min-height: 12rem;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  box-shadow: 5px 5px 20px 5px #888888;
+  border-radius: 7px;
+  background-color: white;
+  color: rgb(232, 55, 241);
+}
+
+#text {
+  width: 10.4rem;
+  height: 1.6rem;
+  border: none;
+  background: transparent;
+  outline: none;
+  margin-left: 15px;
+}
+
+.btn {
+  width: 4rem;
+  height: 1.6rem;
+}
+
+.wrapper {
+  width: 13rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-content {
+  width: 13rem;
+  margin-bottom: 15px;
+}
+
+.btn-random {
+  width: 4rem;
+  height: 1.6rem;
+}
+
+#color {
+  border: none;
+  padding: 0px;
+  margin: 0;
+}
+#color {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+  border: 1px solid black;
+  height: 1.6rem;
+  width: 14rem;
+  justify-content: left;
+  align-items: center;
+  border-radius: 556px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+img {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  left: 90%;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.done {
+  visibility: visible;
+  transition: 1s ease-in-out;
+}
+
+.info {
+  background-color: #021336;
+  color: white;
+  width: 17rem;
+  border-radius: 7px;
+  position: relative;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease;
+}
+
+.rmvBtn {
+  background-color: white;
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  top: -3px;
+  display: flex;
+  justify-content: center;
+
+  right: -3px;
+  border: none;
+  color: black;
+  border-radius: 50%;
+}
+
+.opac {
+  opacity: 0;
+  transition: 0.5s ease;
+}

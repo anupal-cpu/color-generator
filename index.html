@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>uniform</title>
+  </head>
+  <body>
+    <section class="main">
+      <div class="container">
+        <header class="text-content">
+          <h4 class="header">This is your hex color</h4>
+          <input type="color" name="color" id="color" />
+        </header>
+        <div class="wrapper">
+          <div class="box">
+            <input
+              type="text"
+              placeholder="write your color here"
+              name="text"
+              id="text"
+            />
+            <img src="./face.png" alt="image" class="img" />
+          </div>
+          <div class="btn-el">
+            <input class="btn" type="button" value="Apply" />
+            <input class="btn-random" type="button" value="Random" />
+            <input class="btn" type="reset" value="reset" id="reset" />
+          </div>
+        </div>
+        <div class="opt">
+          <select name="sl" id="sl">
+            <option value="face">FaceBook</option>
+            <option value="google">Google</option>
+            <option value="apple">Apple</option>
+          </select>
+        </div>
+      </div>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
